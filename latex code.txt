@@ -1,0 +1,295 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[legalpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	{\Huge \scshape Arijeet Banerjee} \\ \vspace{1pt}
+	Kolkata, West Bengal \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ +91 6297311975 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{arijeetbanerjee118@gmail.com}} ~
+	\href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/arijeet-banerjee}}
+	\vspace{-8pt}
+\end{center}
+
+%-----------Summary-----------
+\section{SUMMARY}
+  \resumeSubHeadingListStart
+         
+I am a 3rd year student with an interest in various fields of Computer Science, Skilled in C, C++, Html, CSS, NodeJS application development and have good programming skills.Furthermore, a key strength of mine is communication, building strong relationships with people in order to deliver the best results.
+
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Techno india University}{June 2020 - August 2024}
+  	{Bachelor of Technology in Computer Science(CGPA of 8.62)}{West Bengal, India}
+
+   \resumeSubheading
+{DAV Model School, Durgapur}{April 2008 - May 2020}
+{Completed my 12th Board with subjects: Maths, Physics, Chemistry, Biology, P.E.D(Percentage-83.3\%)}{West Bengal, India}
+
+  \resumeSubHeadingListEnd
+ 
+
+
+
+%------Work Experience-----------
+%\section{Experience}
+%  \resumeSubHeadingListStart
+%	\resumeSubheading
+%  	{AICTE}{Dec 2022 -- Feb 2023}
+%{\href{https://drive.google.com/file/d/18WKzbgAlyrnhqLxEwGMKj665pAFbAZpd/view?usp=sharing}{AI-ML Virtual Internship}}{Remote}
+%  	\resumeItemListStart
+%   \vspace{+2pt}
+%    	\resumeItem{During my internship I have worked on different \textbf{AWS} Cloud technologies. Also, I have implemented end to end machine learning pipelines using \textbf{AWS Sagemaker}.}
+  %  	\resumeItem{Implemented Forecasting using \textbf{Amazon Forecast} ,Facial Recognition model using \textbf{Computer Vision}, and created a chatbot using \textbf{Amazon Lex}. }
+%	\resumeItemListEnd
+% \vspace{+3pt}
+    
+%  \resumeSubHeadingListEnd
+%\vspace{-16pt}
+
+
+
+%------RELEVANT COURSEWORK-------
+%\section{Proficiency}
+    %\resumeSubHeadingListStart
+ %       \begin{multicols}{5}
+  %          \begin{itemize}[itemsep=-5pt, parsep=3pt]
+   %             \item C/C++
+    %            \item Problem Solving
+     %           \item Python
+      %          \item OpenCV
+       %         \item OOPs
+        %    \end{itemize}
+        %\end{multicols}
+        %\vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+    
+%\vspace{-3pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\textbf{HOTEL MANAGEMENT SYSTEM} $|$ 
+      \\\emph{C++,OOPS}
+        $|$ \href{https://github.com/ArijeetBanerjee/HOTEL-MANAGEMENT-SYSTEM}{\underline{Link}}}{April 2022 -- August 2022}
+          \resumeItemListStart
+            \vspace{+3pt}
+            \resumeItem{An OOP based application completely designed in C++. This system provides various options like booking a room, checking customer
+details, editing or deleting any detail or checking all allotted rooms. The project is developed using two important C++ concepts that are
+classes and file handling. Moreover, we have designed two header files and included those in the main program.
+}
+            \vspace{+3pt}
+          \resumeItemListEnd
+          \vspace{-10pt}
+          \resumeProjectHeading
+          {\textbf{BASIC WEATHER UPDATE WEB APPLICATION } $|$ 
+ \\\emph{HTML,CSS,JavaScript} $|$ \href{https://github.com/ArijeetBanerjee/Weather-Update-API}{ 
+          \underline{Link}}}{Sep 2022 -- Nov 2022}
+          \resumeItemListStart
+          \vspace{+3pt}
+            \resumeItem{Developed a  backend-based web application to get live weather updates by entering the
+location/city details from the front end. To get the weather details I have used a web scrapping technique on a popular
+open-source external weather API.
+}
+           
+          \resumeItemListEnd
+        \resumeSubHeadingListEnd
+    \resumeProjectHeading
+          {\textbf{SINGLE/MULTIPLAYER FRONTEND WEB BASED APPLICATION }$|$ 
+ \\\emph{HTML,CSS,JavaScript,NodeJS,Express} $|$ \href{https://github.com/ArijeetBanerjee/SINGLE-MULTIPLAYER-FRONTEND-BASED-WEB-APPLICATION}{    \underline{Link}}}{Sep 2022 -- Nov 2022}
+          \resumeItemListStart
+         
+            \vspace{+3pt}
+           
+             \resumeItem{SIMON Game: Created classic SIMON Game with HTML, CSS frontend and JavaScript.}
+               \resumeItem{Drum Kit: Created a Webpage using HTML, CSS, NodeJS which can generate different drum sounds by pressing different keys in
+keyboard or by using mouse
+}
+                 \resumeItem{Dice Game: Created a multiplayer game where random probabilistic numbers are generated in both the dice and the player with the
+highest no won the game.}
+\resumeItem{User Database setup: Created an API where the user takes input data like name, gender, email and store it in local database serve.}
+           
+          \resumeItemListEnd
+        \resumeSubHeadingListEnd
+%\vspace{-13pt}
+\vspace{-2pt}
+
+%-----------Achievements-----------
+\section{ACHIEVEMENTS }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem{\textbf{Codechef :}Got Global Rank 2499 out of 25k participants in starters 86 }
+    	\resumeItem{\textbf{Leetcode :}1500 rating on Leetcode}
+    	\resumeItem{\textbf{GFG :}Institute rank under Top 3 with 1800+ Coding Score }
+    	\resumeItem{\textbf{Google Codejam :}Achieved Global Rank of 4042 in Codejam Round A \href{https://drive.google.com/file/d/13277FpnYYOtafmXNH_4oBpVRcLhmyFFY/view?usp=sharing}{(Link)}  }
+    	\resumeItem{Achieved 67th rank Among the World in \textbf{ICC Next- IN Hackathon 2023}}
+    	\resumeItem{Solved more than \textbf{800+} problems across platforms.}
+    	\resumeItem{\textbf{MLSA :}Alpha Milestone in Microsoft Learn Student Ambassador\href{https://drive.google.com/file/d/1Rr0FGM-k3fr-3pP52c7hHJ7iLqTJipG0/view?usp=sharing}{(Link)} }
+\resumeItem{\textbf{GCCP :}Finished among Tier 2 students in google Cloud Career Practitioner Pathway Program\href{https://drive.google.com/file/d/1c_kasdTh0rIWuLDNXkz6UA_gPJw1YueO/view?usp=sharing}{(Link)} }
+  	\resumeItemListEnd
+ \end{itemize}
+% \vspace{-15pt}
+ 
+ %
+
+%-----------Profile Links-----------
+\section{Coding Profiles}
+  \resumeItem{\href{https://www.codechef.com/users/corvo_op}{\textbf{ Codechef}}}{\href{https://leetcode.com/arijeetbanerjee118/}{\textbf{LeetCode}}}{\href{https://auth.geeksforgeeks.org/user/arijeetbanjfhw/practice}{\textbf{   GeeksForGeeks}}}{\href{https://github.com/ArijeetBanerjee}{\textbf{ 
+  GitHub}}}
+  \vspace{-3pt}
+
+%
+ 
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C++, C, HTML/CSS, JavaScript, SQL} \\
+ 	\textbf{Technologies/Frameworks/Libraries}{: NodeJs,ExpressJs, ReactJS} \\\textbf{Open Source}{: Git,Github} \\\textbf{Cloud}{: Azure,Google Cloud}
+	}}
+ \end{itemize}
+ \vspace{-3pt}
+ %-----------ACTIVITIES-----------
+\section{ACTIVITIES }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{CORE MEMBER OF VIVARTA CODING STUDENT CLUB}\\{Organised many coding contests, competitive coding classes, and crash courses in college as a part of the core member of
+the coding society.
+} \\
+\vspace{+8pt}
+ 	\textbf{MEMBER OF GOOGLE DEVELOPER STUDENT CLUB(GDSC)}\\{I am part of the Google developer student club (GDSC) of our college. As a part of this community, we organise and
+participate in many hackathons and related project implementations.
+} \\  
+\item \textbf{ALPHA MICROSOFT LEARN STUDENT AMBASSADOR(MLSA)}\\{As a Microsoft Learn Student Ambsassador,I work with other ambassadors all around the globe to promote technology related stuff by hosting various events and workshops,creating and sharing content on social media, and mentoring other students.}
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+\end{document}
+
+
+
